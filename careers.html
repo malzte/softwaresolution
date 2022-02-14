@@ -3,10 +3,49 @@
 <head>
     <meta charset='utf-8'>
     <title>Careers</title>
-    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
-    <script src='main.js'></script>
 </head>
 <body>
-    
+    <h1>roboSolutions</h1>
+    <ul id="site_nav">
+        <li><a href="./home.html" >Home</a></li>
+        <li><a href="./fields.html">Fields</a></li>
+        <li><a href="./careers.html">Careers</a></li>
+        <li><a href="./customers.html">Customers</a></li>
+        <li><a href="./calculations.html">Calculations</a></li>
+    </ul>
+    <h1>Register</h1>
+    <form>
+        <p>
+            <label>Full Name</label>
+            <input type="text" pattern=".{8,}" required>            
+        </p>
+
+        <p>
+            <label>Experience</label>
+            <input type="number" required>
+        </p>
+
+        <p>
+            <label>Vacancy</label>
+            <select required="true">
+              <option value="android">Android Developer</option>
+              <option value="fullstack">Full Stack Developer</option>
+              <option value="consultant">Consultant</option>
+              <option value="rnd">Research and Development</option>
+            </select>
+        </p>
+
+        <p>
+            <label>Job Type</label>
+            <select>
+              <option value="fulltime">Full-time</option>
+              <option value="parttime">Part-time</option>
+              <option value="freelancer">Freelancer</option>
+              <option value="internship">Internship</option>
+            </select>
+        </p>
+
+        <button type="submit">Submit</button>
+    </form>
 </body>
 </html>
